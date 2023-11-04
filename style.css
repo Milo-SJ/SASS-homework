@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #4d4f62;
+  background-color: #f2f2f2;
+  font-family: Poppins, "Courier New", Courier, monospace;
+}
+h1,
+h2,
+h3,
+p {
+  color: hsl(234, 12%, 34%);
+}
+
+/* p {
+  font-size: 15px;
+} */
+
+header,
+main {
+  width: 335px;
+  margin: auto;
+}
+
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  margin-top: 25px;
+}
+header h1,
+header h2 {
+  margin-bottom: 20px;
+}
+
+header h1,
+header h2,
+header p {
+  text-align: center;
+}
+
+.card {
+  border-radius: 7px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 25px;
+  box-shadow: 3px 8px 19px #7c7c7c;
+}
+
+.card .image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card h3,
+.card p {
+  margin-bottom: 20px;
+}
+
+.supervisor {
+  border-top: 4px solid #45d3d3;
+}
+
+.team-builder {
+  border-top: 4px solid #ea5353;
+}
+
+.karma {
+  border-top: 4px solid #fcaf4a;
+}
+
+.calculator {
+  border-top: 4px solid #5484f2;
+}
+
+@media screen and (min-width: 700px) {
+  /* .diamond-flex {
+    width: 1000px;
+  } */
+  /* .card {
+    position: relative;
+  }
+
+  .image-container {
+    position: absolute;
+  } */
+
+  .one,
+  .two,
+  .three,
+  .four {
+    width: 160px;
+    height: 160px;
+  }
+
+  .diamond-flex {
+    display: flex;
+    /* background-color: orange; */
+    /* height: 800px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .team-builder {
+    margin-bottom: 25px;
+  }
+  .karma {
+    margin-top: 25px;
+  }
+
+  .supervisor {
+    margin-right: 25px;
+  }
+
+  .calculator {
+    margin-left: 25px;
+  }
+
+  .card {
+    box-shadow: none;
+    background-color: #f2f2f2;
+  }
+}

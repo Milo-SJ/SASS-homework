@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .one {
+        background-color: red;
+      }
+      .two {
+        background-color: green;
+      }
+      .three {
+        background-color: blue;
+      }
+      .four {
+        background-color: grey;
+      }
+      .one,
+      .four,
+      .two,
+      .three {
+        width: 250px;
+        height: 250px;
+      }
+
+      /* ignore above */
+
+      @media screen and (min-width: 500px) {
+        .container {
+          display: flex;
+          background-color: orange;
+          height: 800px;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="one">1</div>
+
+      <div class="inner">
+        <div class="two">2</div>
+
+        <div class="three">3</div>
+      </div>
+
+      <div class="four">4</div>
+    </div>
+  </body>
+</html>
